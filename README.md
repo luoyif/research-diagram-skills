@@ -73,3 +73,12 @@ python tools/verify_sources.py
 ```
 
 详见 docs/WORKFLOW.md、docs/SCENE.md、docs/QA.md。几何PASS、单元测试PASS和实际视觉复核PASS不同；三者都不证明科研结论正确。仓库仅包含通用合成示例，不包含标书原文、客户图、凭证、生产数据或字体。
+
+## v1.0.0 下载与直接调用
+
+[GitHub Release / 三套独立ZIP与完整包](https://github.com/luoyif/research-diagram-skills/releases/tag/v1.0.0)
+
+[中文选型与可直接复制的提示词](docs/QUICKSTART_CN.md) · [实际验证范围](docs/VALIDATION_v1.0.0.md)
+
+团队默认推荐 `research-diagram-workflow`；只编辑复杂连接关系选 `research-drawio`；办公PPT交付选 `research-pptx`。
+Release还提供四份上游相关技能源码快照ZIP、逐文件锁定信息和校验清单。私有仓库下载需要账号拥有访问权限。
