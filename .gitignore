@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+work/
+dist/
+*.log
+*.env
+credentials*
+private-inputs/

@@ -1,0 +1,345 @@
+{
+  "schema_version": 1,
+  "title": "参考图重建示例：双路证据与人工复核",
+  "author": "小罗",
+  "width": 1400,
+  "height": 860,
+  "font_family": "Songti SC",
+  "font_sizes": [
+    26,
+    21
+  ],
+  "monochrome": true,
+  "nodes": [
+    {
+      "id": "heading",
+      "kind": "text",
+      "parent": "root",
+      "x": 60,
+      "y": 20,
+      "w": 1280,
+      "h": 50,
+      "text": "参考图重建示例：双路证据与人工复核",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "input",
+      "kind": "group",
+      "parent": "root",
+      "x": 50,
+      "y": 300,
+      "w": 230,
+      "h": 150
+    },
+    {
+      "id": "input_background",
+      "kind": "rect",
+      "parent": "input",
+      "x": 0,
+      "y": 0,
+      "w": 230,
+      "h": 150,
+      "fill": "#FFFFFF",
+      "stroke": "#333333",
+      "rounded": true,
+      "role": "background"
+    },
+    {
+      "id": "input_title",
+      "kind": "text",
+      "parent": "input",
+      "x": 14,
+      "y": 16,
+      "w": 202,
+      "h": 38,
+      "text": "研究问题",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "input_body",
+      "kind": "text",
+      "parent": "input",
+      "x": 14,
+      "y": 66,
+      "w": 202,
+      "h": 70,
+      "text": "输入资料\n来源与范围",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    },
+    {
+      "id": "branch_a",
+      "kind": "group",
+      "parent": "root",
+      "x": 400,
+      "y": 140,
+      "w": 290,
+      "h": 160
+    },
+    {
+      "id": "branch_a_background",
+      "kind": "rect",
+      "parent": "branch_a",
+      "x": 0,
+      "y": 0,
+      "w": 290,
+      "h": 160,
+      "fill": "#FFFFFF",
+      "stroke": "#333333",
+      "rounded": true,
+      "role": "background"
+    },
+    {
+      "id": "branch_a_title",
+      "kind": "text",
+      "parent": "branch_a",
+      "x": 14,
+      "y": 16,
+      "w": 262,
+      "h": 38,
+      "text": "数据路径",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "branch_a_body",
+      "kind": "text",
+      "parent": "branch_a",
+      "x": 14,
+      "y": 66,
+      "w": 262,
+      "h": 80,
+      "text": "数据读取\n质量核对",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    },
+    {
+      "id": "branch_b",
+      "kind": "group",
+      "parent": "root",
+      "x": 400,
+      "y": 500,
+      "w": 290,
+      "h": 160
+    },
+    {
+      "id": "branch_b_background",
+      "kind": "rect",
+      "parent": "branch_b",
+      "x": 0,
+      "y": 0,
+      "w": 290,
+      "h": 160,
+      "fill": "#FFFFFF",
+      "stroke": "#333333",
+      "rounded": true,
+      "role": "background"
+    },
+    {
+      "id": "branch_b_title",
+      "kind": "text",
+      "parent": "branch_b",
+      "x": 14,
+      "y": 16,
+      "w": 262,
+      "h": 38,
+      "text": "知识路径",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "branch_b_body",
+      "kind": "text",
+      "parent": "branch_b",
+      "x": 14,
+      "y": 66,
+      "w": 262,
+      "h": 80,
+      "text": "规则检索\n适用条件",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    },
+    {
+      "id": "review",
+      "kind": "group",
+      "parent": "root",
+      "x": 930,
+      "y": 300,
+      "w": 350,
+      "h": 180
+    },
+    {
+      "id": "review_background",
+      "kind": "rect",
+      "parent": "review",
+      "x": 0,
+      "y": 0,
+      "w": 350,
+      "h": 180,
+      "fill": "#FFFFFF",
+      "stroke": "#333333",
+      "rounded": true,
+      "role": "background"
+    },
+    {
+      "id": "review_title",
+      "kind": "text",
+      "parent": "review",
+      "x": 14,
+      "y": 16,
+      "w": 322,
+      "h": 38,
+      "text": "证据汇聚与复核",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "review_body",
+      "kind": "text",
+      "parent": "review",
+      "x": 14,
+      "y": 66,
+      "w": 322,
+      "h": 100,
+      "text": "独立来源分别保留\n缺项明确交接",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    },
+    {
+      "id": "note",
+      "kind": "text",
+      "parent": "root",
+      "x": 80,
+      "y": 730,
+      "w": 1220,
+      "h": 50,
+      "text": "通用演示；不代表已完成的科研实验或生产系统。",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "input_to_data",
+      "source": "input",
+      "target": "branch_a",
+      "source_port": [
+        1,
+        0.25
+      ],
+      "target_port": [
+        0,
+        0.5
+      ],
+      "waypoints": [
+        [
+          335,
+          337.5
+        ],
+        [
+          335,
+          220
+        ]
+      ],
+      "dashed": false,
+      "arrow": true
+    },
+    {
+      "id": "input_to_knowledge",
+      "source": "input",
+      "target": "branch_b",
+      "source_port": [
+        1,
+        0.75
+      ],
+      "target_port": [
+        0,
+        0.5
+      ],
+      "waypoints": [
+        [
+          335,
+          412.5
+        ],
+        [
+          335,
+          580
+        ]
+      ],
+      "dashed": false,
+      "arrow": true
+    },
+    {
+      "id": "data_to_review",
+      "source": "branch_a",
+      "target": "review",
+      "source_port": [
+        1,
+        0.5
+      ],
+      "target_port": [
+        0,
+        0.25
+      ],
+      "waypoints": [
+        [
+          810,
+          220
+        ],
+        [
+          810,
+          345
+        ]
+      ],
+      "dashed": false,
+      "arrow": true
+    },
+    {
+      "id": "knowledge_to_review",
+      "source": "branch_b",
+      "target": "review",
+      "source_port": [
+        1,
+        0.5
+      ],
+      "target_port": [
+        0,
+        0.75
+      ],
+      "waypoints": [
+        [
+          810,
+          580
+        ],
+        [
+          810,
+          435
+        ]
+      ],
+      "dashed": false,
+      "arrow": true
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Agent/contributor instructions
+Read docs/WORKFLOW.md, docs/QA.md and docs/SECURITY.md. Preserve source wording, relations and approved layout. Native editable objects only; no full-page raster substitution. Two font sizes, honest font substitution, actual per-format rendering and explicit pending states.
+Never claim independent review unless a separate reviewer actually checked. Keep vendor bytes unchanged; run tools/verify_sources.py. Do not commit customer content, fonts, credentials or local logs. Do not automatically run network-capable vendor programs. Run python -m unittest discover -s tests -v before release. Mac delivery needs actual remote file verification, not a temporary container path.

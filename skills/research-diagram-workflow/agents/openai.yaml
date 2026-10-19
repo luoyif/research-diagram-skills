@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研绘图完整工作流"
+  short_description: "参考图重建、原生可编辑、实际导出复核"
+  default_prompt: "使用 $research-diagram-workflow，保留参考图文字与连线，制作可编辑图并检查实际预览。"

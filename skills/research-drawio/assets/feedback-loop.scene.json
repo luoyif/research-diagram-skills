@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "title": "闭环示例：生成、验证与审阅",
+  "author": "小罗",
+  "width": 1400,
+  "height": 860,
+  "font_family": "Songti SC",
+  "font_sizes": [
+    26,
+    21
+  ],
+  "monochrome": true,
+  "nodes": [
+    {
+      "id": "heading",
+      "kind": "text",
+      "parent": "root",
+      "x": 60,
+      "y": 20,
+      "w": 1280,
+      "h": 50,
+      "text": "闭环示例：生成、验证与审阅",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "candidate",
+      "kind": "group",
+      "parent": "root",
+      "x": 60,
+      "y": 300,
+      "w": 320,
+      "h": 190
+    },
+    {
+      "id": "candidate_background",
+      "kind": "rect",
+      "parent": "candidate",
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 190,
+      "fill": "#FFFFFF",
+      "stroke": "#333333",
+      "rounded": true,
+      "role": "background"
+    },
+    {
+      "id": "candidate_title",
+      "kind": "text",
+      "parent": "candidate",
+      "x": 14,
+      "y": 16,
+      "w": 292,
+      "h": 38,
+      "text": "候选生成",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "candidate_body",
+      "kind": "text",
+      "parent": "candidate",
+      "x": 14,
+      "y": 66,
+      "w": 292,
+      "h": 110,
+      "text": "保留目标与前提",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    },
+    {
+      "id": "verify",
+      "kind": "group",
+      "parent": "root",
+      "x": 510,
+      "y": 300,
+      "w": 320,
+      "h": 190
+    },
+    {
+      "id": "verify_background",
+      "kind": "rect",
+      "parent": "verify",
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 190,
+      "fill": "#FFFFFF",
+      "stroke": "#333333",
+      "rounded": true,
+      "role": "background"
+    },
+    {
+      "id": "verify_title",
+      "kind": "text",
+      "parent": "verify",
+      "x": 14,
+      "y": 16,
+      "w": 292,
+      "h": 38,
+      "text": "约束验证",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "verify_body",
+      "kind": "text",
+      "parent": "verify",
+      "x": 14,
+      "y": 66,
+      "w": 292,
+      "h": 110,
+      "text": "核对输入与证据",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    },
+    {
+      "id": "human",
+      "kind": "group",
+      "parent": "root",
+      "x": 960,
+      "y": 300,
+      "w": 320,
+      "h": 190
+    },
+    {
+      "id": "human_background",
+      "kind": "rect",
+      "parent": "human",
+      "x": 0,
+      "y": 0,
+      "w": 320,
+      "h": 190,
+      "fill": "#FFFFFF",
+      "stroke": "#333333",
+      "rounded": true,
+      "role": "background"
+    },
+    {
+      "id": "human_title",
+      "kind": "text",
+      "parent": "human",
+      "x": 14,
+      "y": 16,
+      "w": 292,
+      "h": 38,
+      "text": "人工审阅",
+      "font_size": 26,
+      "align": "center",
+      "color": "#111111",
+      "bold": true
+    },
+    {
+      "id": "human_body",
+      "kind": "text",
+      "parent": "human",
+      "x": 14,
+      "y": 66,
+      "w": 292,
+      "h": 110,
+      "text": "接受、修改或拒绝",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    },
+    {
+      "id": "feedback_label",
+      "kind": "text",
+      "parent": "root",
+      "x": 520,
+      "y": 95,
+      "w": 420,
+      "h": 45,
+      "text": "反馈修订：沿外侧通道返回",
+      "font_size": 21,
+      "align": "center",
+      "color": "#111111",
+      "bold": false
+    }
+  ],
+  "edges": [
+    {
+      "id": "candidate_to_verify",
+      "source": "candidate",
+      "target": "verify",
+      "source_port": [
+        1,
+        0.5
+      ],
+      "target_port": [
+        0,
+        0.5
+      ],
+      "waypoints": [],
+      "dashed": false,
+      "arrow": true
+    },
+    {
+      "id": "verify_to_human",
+      "source": "verify",
+      "target": "human",
+      "source_port": [
+        1,
+        0.5
+      ],
+      "target_port": [
+        0,
+        0.5
+      ],
+      "waypoints": [],
+      "dashed": false,
+      "arrow": true
+    },
+    {
+      "id": "human_feedback",
+      "source": "human",
+      "target": "candidate",
+      "source_port": [
+        0.5,
+        0
+      ],
+      "target_port": [
+        0.5,
+        0
+      ],
+      "waypoints": [
+        [
+          1120,
+          170
+        ],
+        [
+          220,
+          170
+        ]
+      ],
+      "dashed": true,
+      "arrow": true
+    }
+  ]
+}

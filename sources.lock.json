@@ -1,0 +1,1207 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "repository": "jgraph/drawio-mcp",
+      "url": "https://github.com/jgraph/drawio-mcp",
+      "commit": "8fc748b3d879057adabf51e45e2da110d3809428",
+      "license": "Apache-2.0",
+      "scope": [
+        "plugins/codex/drawio/",
+        "shared/"
+      ],
+      "vendored_path": "vendor/jgraph__drawio-mcp",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "006e61a1b8c97620d75ceacc283de7a363d78da7da9a5b92203324c40feb7232",
+          "bytes": 10762
+        },
+        {
+          "path": "README.md",
+          "sha256": "41c8965e7302f089893166d328f770cab3cbb21d8c93147a74772367240cb90b",
+          "bytes": 17427
+        },
+        {
+          "path": "plugins/codex/drawio/.codex-plugin/plugin.json",
+          "sha256": "bfa8bb57e64de86b25e17431da5af7bd5cfb63bc6ad4bd88f0719ae81890561e",
+          "bytes": 1530
+        },
+        {
+          "path": "plugins/codex/drawio/DEVELOPING.md",
+          "sha256": "f24823c6738222f9f2b9de843ba2046fcf34ae398c05f73946b54ee90886983a",
+          "bytes": 5319
+        },
+        {
+          "path": "plugins/codex/drawio/README.md",
+          "sha256": "400c20a90b049a78e44a88764a1d6f9bdf88e041b753c3ec32ba7ce84997a4ff",
+          "bytes": 6686
+        },
+        {
+          "path": "plugins/codex/drawio/assets/drawio-logo.svg",
+          "sha256": "8eb5ea9fc684ee804688a4d5f72aebdf6132d985b4471cdfddac4ee210494ff5",
+          "bytes": 1194
+        },
+        {
+          "path": "plugins/codex/drawio/skills/drawio/SKILL.md",
+          "sha256": "52211fe4a1a9f7b5bcbc92aad5d0e157dd11a45aaa045f26cad075f88f1a7012",
+          "bytes": 27830
+        },
+        {
+          "path": "shared/chat-view-mermaid.md",
+          "sha256": "d116bdcedba58bdcd4264eb1db10fedc0e02702cb22fd4ed483e1abbaa4f1ab7",
+          "bytes": 1167
+        },
+        {
+          "path": "shared/chat-view-xml.md",
+          "sha256": "475c57472437f10176238d3326cd5156fb52a605fac844ef60908b6b040384ac",
+          "bytes": 16151
+        },
+        {
+          "path": "shared/icon-search.js",
+          "sha256": "ede234e404c58effd3b2abb79cb1432407eee87684537659e2cbe962eda139ab",
+          "bytes": 7067
+        },
+        {
+          "path": "shared/label-perimeter.js",
+          "sha256": "b743df93612dd9001691cd7b883c4a86b9db7fdc49c9b6e8666ee74cdd3a1903",
+          "bytes": 11476
+        },
+        {
+          "path": "shared/mermaid-elk.js",
+          "sha256": "6620be092e6bc514fa63ca11878aa6fdbda7b96e40fef886ff4c5e89062081c1",
+          "bytes": 4986
+        },
+        {
+          "path": "shared/mermaid-reference.md",
+          "sha256": "ac7af3fe47a817c902b11efd85737080bfcc93ac0f2dc8b7b5b381a5ba32eeaf",
+          "bytes": 14705
+        },
+        {
+          "path": "shared/mx-model.js",
+          "sha256": "42a8387340b549bec8e76af5ec19892f8514d6b7b7c0ceda8969dc8fa95cf5dd",
+          "bytes": 28349
+        },
+        {
+          "path": "shared/mx-xml.js",
+          "sha256": "615805ddc91735b77fbf2afbfbaef96d6cb279ab56735419a034b0844d284e66",
+          "bytes": 15698
+        },
+        {
+          "path": "shared/mxfile.xsd",
+          "sha256": "905db85d4e8ebec0e91518cdd62982e0afb3f09ebdcaf9e6b1952957a606639a",
+          "bytes": 29499
+        },
+        {
+          "path": "shared/normalize-model.js",
+          "sha256": "cfbcca33e0df107451591f253f4456cd18bbb8e30e8b79d70d5cd92b731baad0",
+          "bytes": 2927
+        },
+        {
+          "path": "shared/package.json",
+          "sha256": "609158e6c5fbc237939fa3ddf7faab80ab690bdc0c8d584414a885130103c4e8",
+          "bytes": 42
+        },
+        {
+          "path": "shared/repair-xml.js",
+          "sha256": "758b108bc905ead290330aa673f64580d522b4c1322ac891210d15d4bfdac63a",
+          "bytes": 9468
+        },
+        {
+          "path": "shared/shape-search.js",
+          "sha256": "1441d3e87c039e9a0f7ef70817d66c00242432a8d2dd8c5a8a83a3a9df95ce7c",
+          "bytes": 10884
+        },
+        {
+          "path": "shared/style-reference.md",
+          "sha256": "73c07137b457fd2587f63e4cf4991526d5ae448d1a2af5a08648ff616ce937b0",
+          "bytes": 46065
+        },
+        {
+          "path": "shared/xml-essentials.md",
+          "sha256": "4efa661fa028224816a05c4c2449d2b6ac6779e0835cb122bdd20daadc10e128",
+          "bytes": 1338
+        },
+        {
+          "path": "shared/xml-reference.md",
+          "sha256": "4a0dfdfaf507924700a21373abb9703661d60e385d7df8086bd3575b17b9a11a",
+          "bytes": 40561
+        }
+      ],
+      "excluded_paths": [
+        ".agents/plugins/marketplace.json",
+        ".claude-plugin/marketplace.json",
+        ".cursor-plugin/marketplace.json",
+        ".dockerignore",
+        ".github/plugin/marketplace.json",
+        ".github/workflows/check-skill-sync.yml",
+        ".github/workflows/publish-app-server-image.yml",
+        ".github/workflows/publish-tool-server.yml",
+        ".github/workflows/update-search-index.yml",
+        ".gitignore",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "docs/images/gallery/gallery-archimate-dark.svg",
+        "docs/images/gallery/gallery-archimate.svg",
+        "docs/images/gallery/gallery-awsha-dark.svg",
+        "docs/images/gallery/gallery-awsha.svg",
+        "docs/images/gallery/gallery-azure-dark.svg",
+        "docs/images/gallery/gallery-azure.svg",
+        "docs/images/gallery/gallery-block-dark.svg",
+        "docs/images/gallery/gallery-block.svg",
+        "docs/images/gallery/gallery-bmc-dark.svg",
+        "docs/images/gallery/gallery-bmc.svg",
+        "docs/images/gallery/gallery-bpmn-dark.svg",
+        "docs/images/gallery/gallery-bpmn.svg",
+        "docs/images/gallery/gallery-c4-dark.svg",
+        "docs/images/gallery/gallery-c4.svg",
+        "docs/images/gallery/gallery-circuit-dark.svg",
+        "docs/images/gallery/gallery-circuit.svg",
+        "docs/images/gallery/gallery-component-dark.svg",
+        "docs/images/gallery/gallery-component.svg",
+        "docs/images/gallery/gallery-conceptmap-dark.svg",
+        "docs/images/gallery/gallery-conceptmap.svg",
+        "docs/images/gallery/gallery-d1-pie-dark.svg",
+        "docs/images/gallery/gallery-d1-pie.svg",
+        "docs/images/gallery/gallery-d2-git-dark.svg",
+        "docs/images/gallery/gallery-d2-git.svg",
+        "docs/images/gallery/gallery-d3-quadrant-dark.svg",
+        "docs/images/gallery/gallery-d3-quadrant.svg",
+        "docs/images/gallery/gallery-d4-kanban-dark.svg",
+        "docs/images/gallery/gallery-d4-kanban.svg",
+        "docs/images/gallery/gallery-d5-journey-dark.svg",
+        "docs/images/gallery/gallery-d5-journey.svg",
+        "docs/images/gallery/gallery-dashboard-dark.svg",
+        "docs/images/gallery/gallery-dashboard.svg",
+        "docs/images/gallery/gallery-deployment-dark.svg",
+        "docs/images/gallery/gallery-deployment.svg",
+        "docs/images/gallery/gallery-dfd-dark.svg",
+        "docs/images/gallery/gallery-dfd.svg",
+        "docs/images/gallery/gallery-eventmodel-dark.svg",
+        "docs/images/gallery/gallery-eventmodel.svg",
+        "docs/images/gallery/gallery-family-dark.svg",
+        "docs/images/gallery/gallery-family.svg",
+        "docs/images/gallery/gallery-faulttree-dark.svg",
+        "docs/images/gallery/gallery-faulttree.svg",
+        "docs/images/gallery/gallery-floorplan-dark.svg",
+        "docs/images/gallery/gallery-floorplan.svg",
+        "docs/images/gallery/gallery-funnel-dark.svg",
+        "docs/images/gallery/gallery-funnel.svg",
+        "docs/images/gallery/gallery-gcp-dark.svg",
+        "docs/images/gallery/gallery-gcp.svg",
+        "docs/images/gallery/gallery-h4-org-dark.svg",
+        "docs/images/gallery/gallery-h4-org.svg",
+        "docs/images/gallery/gallery-incident-dark.svg",
+        "docs/images/gallery/gallery-incident.svg",
+        "docs/images/gallery/gallery-infographic-dark.svg",
+        "docs/images/gallery/gallery-infographic.svg",
+        "docs/images/gallery/gallery-ishikawa-dark.svg",
+        "docs/images/gallery/gallery-ishikawa.svg",
+        "docs/images/gallery/gallery-k8s-dark.svg",
+        "docs/images/gallery/gallery-k8s.svg",
+        "docs/images/gallery/gallery-logic-dark.svg",
+        "docs/images/gallery/gallery-logic.svg",
+        "docs/images/gallery/gallery-mockup-dark.svg",
+        "docs/images/gallery/gallery-mockup.svg",
+        "docs/images/gallery/gallery-n10-usecase-dark.svg",
+        "docs/images/gallery/gallery-n10-usecase.svg",
+        "docs/images/gallery/gallery-n11-blog-er-dark.svg",
+        "docs/images/gallery/gallery-n11-blog-er.svg",
+        "docs/images/gallery/gallery-n12-timeline-dark.svg",
+        "docs/images/gallery/gallery-n12-timeline.svg",
+        "docs/images/gallery/gallery-n14-3tier-dark.svg",
+        "docs/images/gallery/gallery-n14-3tier.svg",
+        "docs/images/gallery/gallery-n2-class-dark.svg",
+        "docs/images/gallery/gallery-n2-class.svg",
+        "docs/images/gallery/gallery-n3-state-dark.svg",
+        "docs/images/gallery/gallery-n3-state.svg",
+        "docs/images/gallery/gallery-n4-mindmap-dark.svg",
+        "docs/images/gallery/gallery-n4-mindmap.svg",
+        "docs/images/gallery/gallery-n5-gantt-dark.svg",
+        "docs/images/gallery/gallery-n5-gantt.svg",
+        "docs/images/gallery/gallery-n6-network-dark.svg",
+        "docs/images/gallery/gallery-n6-network.svg",
+        "docs/images/gallery/gallery-n7-microservices-dark.svg",
+        "docs/images/gallery/gallery-n7-microservices.svg",
+        "docs/images/gallery/gallery-n8-cicd-dark.svg",
+        "docs/images/gallery/gallery-n8-cicd.svg",
+        "docs/images/gallery/gallery-n9-decision-dark.svg",
+        "docs/images/gallery/gallery-n9-decision.svg",
+        "docs/images/gallery/gallery-packet-dark.svg",
+        "docs/images/gallery/gallery-packet.svg",
+        "docs/images/gallery/gallery-pid-dark.svg",
+        "docs/images/gallery/gallery-pid.svg",
+        "docs/images/gallery/gallery-pyramid-dark.svg",
+        "docs/images/gallery/gallery-pyramid.svg",
+        "docs/images/gallery/gallery-rack-dark.svg",
+        "docs/images/gallery/gallery-rack.svg",
+        "docs/images/gallery/gallery-radar-dark.svg",
+        "docs/images/gallery/gallery-radar.svg",
+        "docs/images/gallery/gallery-requirement-dark.svg",
+        "docs/images/gallery/gallery-requirement.svg",
+        "docs/images/gallery/gallery-ridedark-dark.svg",
+        "docs/images/gallery/gallery-ridedark.svg",
+        "docs/images/gallery/gallery-roadmap-dark.svg",
+        "docs/images/gallery/gallery-roadmap.svg",
+        "docs/images/gallery/gallery-sankey-dark.svg",
+        "docs/images/gallery/gallery-sankey.svg",
+        "docs/images/gallery/gallery-seating-dark.svg",
+        "docs/images/gallery/gallery-seating.svg",
+        "docs/images/gallery/gallery-sitemap-dark.svg",
+        "docs/images/gallery/gallery-sitemap.svg",
+        "docs/images/gallery/gallery-swot-dark.svg",
+        "docs/images/gallery/gallery-swot.svg",
+        "docs/images/gallery/gallery-t1-flowchart-dark.svg",
+        "docs/images/gallery/gallery-t1-flowchart.svg",
+        "docs/images/gallery/gallery-t2-aws-dark.svg",
+        "docs/images/gallery/gallery-t2-aws.svg",
+        "docs/images/gallery/gallery-t3-sequence-dark.svg",
+        "docs/images/gallery/gallery-t3-sequence.svg",
+        "docs/images/gallery/gallery-t4-swimlane-dark.svg",
+        "docs/images/gallery/gallery-t4-swimlane.svg",
+        "docs/images/gallery/gallery-treemap-dark.svg",
+        "docs/images/gallery/gallery-treemap.svg",
+        "docs/images/gallery/gallery-treeview-dark.svg",
+        "docs/images/gallery/gallery-treeview.svg",
+        "docs/images/gallery/gallery-venn-dark.svg",
+        "docs/images/gallery/gallery-venn.svg",
+        "docs/images/gallery/gallery-wardley-dark.svg",
+        "docs/images/gallery/gallery-wardley.svg",
+        "docs/images/gallery/gallery-watercycle-dark.svg",
+        "docs/images/gallery/gallery-watercycle.svg",
+        "docs/images/gallery/gallery-xy-dark.svg",
+        "docs/images/gallery/gallery-xy.svg",
+        "docs/images/gallery/gallery-zenuml-dark.svg",
+        "docs/images/gallery/gallery-zenuml.svg",
+        "docs/images/gallery/gallery.json",
+        "favicon.ico",
+        "glama.json",
+        "mcp-app-server/.gitignore",
+        "mcp-app-server/AGENTS.md",
+        "mcp-app-server/CLAUDE.md",
+        "mcp-app-server/DOCKER_HUB.md",
+        "mcp-app-server/Dockerfile",
+        "mcp-app-server/OPENAI-SUBMISSION.md",
+        "mcp-app-server/README.md",
+        "mcp-app-server/favicon.png",
+        "mcp-app-server/openai-plugin/.codex-plugin/plugin.json",
+        "mcp-app-server/openai-plugin/.mcp.json",
+        "mcp-app-server/openai-plugin/assets/drawio-logo.png",
+        "mcp-app-server/package-lock.json",
+        "mcp-app-server/package.json",
+        "mcp-app-server/public/carousel/aws-architecture.png",
+        "mcp-app-server/public/carousel/checkout-sequence.png",
+        "mcp-app-server/public/carousel/cicd-flowchart.png",
+        "mcp-app-server/public/carousel/ecommerce-er.png",
+        "mcp-app-server/public/demo/drawio-plugin-demo.mp4",
+        "mcp-app-server/server.json",
+        "mcp-app-server/snippet/mcp_edge.js",
+        "mcp-app-server/src/build-html.js",
+        "mcp-app-server/src/index.js",
+        "mcp-app-server/src/libavoid-versions.js",
+        "mcp-app-server/src/normalize-diagram-xml.js",
+        "mcp-app-server/src/references.js",
+        "mcp-app-server/src/shared.js",
+        "mcp-app-server/src/worker.js",
+        "mcp-app-server/test/download.test.js",
+        "mcp-app-server/test/edge-snippet.test.js",
+        "mcp-app-server/test/lenient-input.test.js",
+        "mcp-app-server/test/links.test.js",
+        "mcp-app-server/test/model-context.test.js",
+        "mcp-app-server/test/references.test.js",
+        "mcp-app-server/test/tools.test.js",
+        "mcp-app-server/vendor/libavoid/LICENSE",
+        "mcp-app-server/vendor/libavoid/README.md",
+        "mcp-app-server/vendor/libavoid/libavoid.d.ts",
+        "mcp-app-server/wrangler.toml",
+        "mcp-tool-server/.gitignore",
+        "mcp-tool-server/AGENTS.md",
+        "mcp-tool-server/CLAUDE.md",
+        "mcp-tool-server/README.md",
+        "mcp-tool-server/package-lock.json",
+        "mcp-tool-server/package.json",
+        "mcp-tool-server/src/cdn-cache.js",
+        "mcp-tool-server/src/elk-engine.js",
+        "mcp-tool-server/src/elk-pass.js",
+        "mcp-tool-server/src/index.js",
+        "mcp-tool-server/src/libavoid-pass.js",
+        "mcp-tool-server/src/pages.js",
+        "mcp-tool-server/src/postinstall.js",
+        "mcp-tool-server/src/shape-index.js",
+        "mcp-tool-server/test/elk-pass.test.js",
+        "mcp-tool-server/test/icon-search.test.js",
+        "mcp-tool-server/test/label-perimeter.test.js",
+        "mcp-tool-server/test/libavoid-pass.test.js",
+        "mcp-tool-server/test/links.test.js",
+        "mcp-tool-server/test/mermaid-elk.test.js",
+        "mcp-tool-server/test/normalize-model.test.js",
+        "mcp-tool-server/test/pages.test.js",
+        "mcp-tool-server/test/postinstall.test.js",
+        "mcp-tool-server/test/repair-xml.test.js",
+        "mcp-tool-server/test/shape-index.test.js",
+        "mcp-tool-server/test/shape-search.test.js",
+        "mcp-tool-server/test/tools.test.js",
+        "mcp-tool-server/vendor/libavoid/LICENSE",
+        "mcp-tool-server/vendor/libavoid/README.md",
+        "mcp-tool-server/vendor/libavoid/libavoid-node.mjs",
+        "mcp-tool-server/vendor/libavoid/libavoid-routing.js",
+        "mcp-tool-server/vendor/libavoid/libavoid.d.ts",
+        "mcp-tool-server/vendor/libavoid/libavoid.wasm",
+        "plugins/README.md",
+        "plugins/claude-code/.claude-plugin/icon.png",
+        "plugins/claude-code/.claude-plugin/plugin.json",
+        "plugins/claude-code/.mcp.json",
+        "plugins/claude-code/DEVELOPING.md",
+        "plugins/claude-code/README.md",
+        "plugins/claude-code/skills/drawio/SKILL.md",
+        "plugins/copilot/DEVELOPING.md",
+        "plugins/copilot/README.md",
+        "plugins/copilot/plugin.json",
+        "plugins/copilot/skills/drawio/SKILL.md",
+        "plugins/cursor/.cursor-plugin/plugin.json",
+        "plugins/cursor/README.md",
+        "plugins/cursor/assets/drawio-logo.svg",
+        "plugins/cursor/mcp.json",
+        "plugins/cursor/skills/drawio/SKILL.md",
+        "project-instructions/AGENTS.md",
+        "project-instructions/CLAUDE.md",
+        "project-instructions/README.md",
+        "project-instructions/claude-project-instructions.txt",
+        "shape-search/generate-index.js",
+        "shape-search/package-lock.json",
+        "shape-search/package.json",
+        "shape-search/search-index.json"
+      ],
+      "snapshot_time_utc": "2026-10-19T02:52:53.530125+00:00",
+      "previous_project_use": "newly_researched_for_this_bundle"
+    },
+    {
+      "repository": "Agents365-ai/drawio-skill",
+      "url": "https://github.com/Agents365-ai/drawio-skill",
+      "commit": "57270820d3cd71cbdf4fb6b2f7091d4fb37bb019",
+      "license": "MIT",
+      "scope": [
+        "skills/drawio-skill/"
+      ],
+      "vendored_path": "vendor/Agents365-ai__drawio-skill",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a",
+          "bytes": 1069
+        },
+        {
+          "path": "README.md",
+          "sha256": "c13324a7f46f3f568a0472fde97efd62951864eb6abff9ab05cd14eb27717736",
+          "bytes": 24456
+        },
+        {
+          "path": "README_CN.md",
+          "sha256": "fac3af5436ebeff67dc3d6ea621f58d418b566d0ed639a5dfc6b875f95a840d1",
+          "bytes": 23904
+        },
+        {
+          "path": "skills/drawio-skill/LICENSE",
+          "sha256": "0d43b46456eda48a9054fbfa915ac80e150f5db5cf90714eda710c02e1df461a",
+          "bytes": 1069
+        },
+        {
+          "path": "skills/drawio-skill/SKILL.md",
+          "sha256": "922d7863a09e6521236bffb6989ebe4e9bce045ebd0f82866c94375fccfd1c6b",
+          "bytes": 9706
+        },
+        {
+          "path": "skills/drawio-skill/agents/openai.yaml",
+          "sha256": "ca8053ac6cec8b9fce47320e6cc902c615a8692e5cbb2cfa701863898862e0fc",
+          "bytes": 307
+        },
+        {
+          "path": "skills/drawio-skill/data/SHAPE-INDEX-NOTICE.md",
+          "sha256": "dc6e070b9fd905c6a574614dd0c4403253ad8b7111e2f2f3892996b2729e26ab",
+          "bytes": 880
+        },
+        {
+          "path": "skills/drawio-skill/data/databricks-icons.json",
+          "sha256": "760d80cdd57e5b7784b036d07ce49c149b78d362a35078c5f92171e2d268ec7c",
+          "bytes": 11762
+        },
+        {
+          "path": "skills/drawio-skill/data/diagram-ir.schema.json",
+          "sha256": "92891a36b4160a2a08398884fd0cbec224791c406a9107c923acf934f471e016",
+          "bytes": 1534
+        },
+        {
+          "path": "skills/drawio-skill/data/lobe-icons.json",
+          "sha256": "e7c309bd5ebf4df948563d48469090d0868432549f168319534215f79b0077cc",
+          "bytes": 12919
+        },
+        {
+          "path": "skills/drawio-skill/data/shape-index.json.gz",
+          "sha256": "f19d9f794775d91e196b0a8d1fce32d6dbbf9828f094bedc53e843c8131ee8ea",
+          "bytes": 436148
+        },
+        {
+          "path": "skills/drawio-skill/references/autolayout.md",
+          "sha256": "1d993371633b87b5563a785e8f3c862e0103f0d0251b7986e37d862b9c59b1ef",
+          "bytes": 19798
+        },
+        {
+          "path": "skills/drawio-skill/references/ci-gate.md",
+          "sha256": "4aff775b72567c0325b467805e9108187fa9e38c4df339c84a100028f3e65c50",
+          "bytes": 2090
+        },
+        {
+          "path": "skills/drawio-skill/references/cookbook.md",
+          "sha256": "c85e1373b685d4ed3ecdec115649da1f38de0ed7abce5ccbc15be2ca75d5ca59",
+          "bytes": 7087
+        },
+        {
+          "path": "skills/drawio-skill/references/databricks.md",
+          "sha256": "aa47283c8c875305569bcca8f83649912c7f8e8ceefef723220fdc139531c8c9",
+          "bytes": 2625
+        },
+        {
+          "path": "skills/drawio-skill/references/derasterize.md",
+          "sha256": "a4efd3152ba340299a92ae599d936fd07296d725a1a86efc79ed9a7b25754bb8",
+          "bytes": 2526
+        },
+        {
+          "path": "skills/drawio-skill/references/diagram-ir.md",
+          "sha256": "3a12b71703f1631b0cf6cfc5fb0faf46534a7f9382e1e5d26eecbcde685232d8",
+          "bytes": 4847
+        },
+        {
+          "path": "skills/drawio-skill/references/diagram-types.md",
+          "sha256": "958b6d0ab59b2731b6fb9d567a95d8c8cde596cddad18d5242304d916a78f7e1",
+          "bytes": 16691
+        },
+        {
+          "path": "skills/drawio-skill/references/live-infra.md",
+          "sha256": "87d92e8b8ae259a1433764f349ff8f8dd1f7991dba5d4c55198fb9fa1706580a",
+          "bytes": 3670
+        },
+        {
+          "path": "skills/drawio-skill/references/mcp.md",
+          "sha256": "f0c5463d653e734cbec1670a7cb82a58250b691335721f418c4cf6a424a8280a",
+          "bytes": 3405
+        },
+        {
+          "path": "skills/drawio-skill/references/mermaid-authoring.md",
+          "sha256": "b44d45322be91ee3b32da2badaa8ff53e6951350185bb71f7fb8f48ac9120b96",
+          "bytes": 4978
+        },
+        {
+          "path": "skills/drawio-skill/references/pr-bot.md",
+          "sha256": "c34a85d91ec4e5b79d7bfb42b725ae9f15435f1f2dc67b98f6d0523ada294d6f",
+          "bytes": 3927
+        },
+        {
+          "path": "skills/drawio-skill/references/security.md",
+          "sha256": "35f2072dcf1a01ead5dd72c971ac74bfc89a6c174667586bce495023070faa0e",
+          "bytes": 2082
+        },
+        {
+          "path": "skills/drawio-skill/references/semantic-workflows.md",
+          "sha256": "40a4130d1452bd49fea43bc04e16f646bf61c87ff9939487bf49f8abb20dbc01",
+          "bytes": 3043
+        },
+        {
+          "path": "skills/drawio-skill/references/shapes.md",
+          "sha256": "b696df00bb4d74afb93670adf0e58acd6e0eb5cf8145e40994851ec052a18c23",
+          "bytes": 7155
+        },
+        {
+          "path": "skills/drawio-skill/references/style-extraction.md",
+          "sha256": "9dfba198a0e0f610e2fdaecff29aa380984ba03c67d5a02c86b75106c95de2a0",
+          "bytes": 17575
+        },
+        {
+          "path": "skills/drawio-skill/references/style-presets.md",
+          "sha256": "b40f2dfd2cd21e244a9769d05b597d96dd2135518bea9478aa15d08616d848c6",
+          "bytes": 11171
+        },
+        {
+          "path": "skills/drawio-skill/references/toolbox.md",
+          "sha256": "1b3d27a32af38c10ebe47f4917c317dc77834420f09bf5f822550ea2f4b43483",
+          "bytes": 11942
+        },
+        {
+          "path": "skills/drawio-skill/references/troubleshooting.md",
+          "sha256": "46dee9804e8f6866ea565a2e626bc14103f4295747a984faccb98fddc2376809",
+          "bytes": 7430
+        },
+        {
+          "path": "skills/drawio-skill/references/tubemap.md",
+          "sha256": "654db7cc5f5c757a28e0b64060e3c78880fa11045944810150af1770cd8107c1",
+          "bytes": 3275
+        },
+        {
+          "path": "skills/drawio-skill/references/xml-authoring.md",
+          "sha256": "731a128920fe33f9f5ce41b4bb9d8459b606fd5232080ea26357cc37aecf320e",
+          "bytes": 14986
+        },
+        {
+          "path": "skills/drawio-skill/scripts/aiicons.py",
+          "sha256": "96017e7e289eacbf7b304a623b207b6df2258fe04ffe9894d266bcde2c135c2d",
+          "bytes": 8398
+        },
+        {
+          "path": "skills/drawio-skill/scripts/asyncapiimports.py",
+          "sha256": "8a4e39f8933db55227575c23705b04a16551de1bbb833431c3462af8e881a3c2",
+          "bytes": 11148
+        },
+        {
+          "path": "skills/drawio-skill/scripts/autolayout.py",
+          "sha256": "d72e15eb0cfa356e9722c9824037d2fbd65840ee686324e87070d195d973a162",
+          "bytes": 18286
+        },
+        {
+          "path": "skills/drawio-skill/scripts/buildup.py",
+          "sha256": "e496e39605f51dd81d44964c623298376e1efba7c9c7132452c1e01dfddb8afc",
+          "bytes": 14380
+        },
+        {
+          "path": "skills/drawio-skill/scripts/c4.py",
+          "sha256": "82f349e1a5240984275f1fc9cfe21a91dd4124fbf42a61903439eaf90ceadd22",
+          "bytes": 6670
+        },
+        {
+          "path": "skills/drawio-skill/scripts/ciimports.py",
+          "sha256": "c9de9a7af0aa3ed6b2d3e4e1bfaa045444940bf31666fc7e0118ce962ae1ed86",
+          "bytes": 7776
+        },
+        {
+          "path": "skills/drawio-skill/scripts/composeimports.py",
+          "sha256": "ae9c96282daa3f35ddba65a443456034ca9e7e6920a3db5b646ed8fe0a17909d",
+          "bytes": 4738
+        },
+        {
+          "path": "skills/drawio-skill/scripts/compress.py",
+          "sha256": "464689570eccf3a8992531164f03933380624e00f3e97c421e74a49c1d3250a7",
+          "bytes": 10582
+        },
+        {
+          "path": "skills/drawio-skill/scripts/dbxicons.py",
+          "sha256": "dfa302a7d803b6c710d7cfdf4fc06d959c8cd9e53ef1f73108f9d2946a03db16",
+          "bytes": 12632
+        },
+        {
+          "path": "skills/drawio-skill/scripts/diagram_ir.py",
+          "sha256": "05b2b64af048b797fa15ae1f44709a7ebb6f43bbe91b45d17e115ceaa6984fcc",
+          "bytes": 59171
+        },
+        {
+          "path": "skills/drawio-skill/scripts/diagramctl.py",
+          "sha256": "dd857659d23bc1ed672a8d405d69e83b76db1f604d3f506e6ed6f7b87487707c",
+          "bytes": 20956
+        },
+        {
+          "path": "skills/drawio-skill/scripts/diagramctl_mcp.py",
+          "sha256": "b2b270477ac04c29d9ed213f89662246e0fae9b6fa536e49b0808582a7fbb67c",
+          "bytes": 16745
+        },
+        {
+          "path": "skills/drawio-skill/scripts/dockerimports.py",
+          "sha256": "7a06bcc73f754b01d651bf5276d0e947d6eeb9817c412abcd1bb69f3752760ec",
+          "bytes": 6391
+        },
+        {
+          "path": "skills/drawio-skill/scripts/drawio2mermaid.py",
+          "sha256": "c6bc00fd9d3e7f3f0534dddc4e519708559404e0c40c808ebc89312160b9e01c",
+          "bytes": 5965
+        },
+        {
+          "path": "skills/drawio-skill/scripts/drawio2pptx.py",
+          "sha256": "22be444d8ee4894f5a72f7f296a72c0f15085c9ae56fb72a9ff374c4861d0d45",
+          "bytes": 4519
+        },
+        {
+          "path": "skills/drawio-skill/scripts/drawiodiff.py",
+          "sha256": "392396ad3633f30776208388165a3552f0faa894cf2f5ec45a1b0ce5101fdcba",
+          "bytes": 10854
+        },
+        {
+          "path": "skills/drawio-skill/scripts/drawiohtml.py",
+          "sha256": "334226f9fccfc55561f5ffb67e4fa1a35e5ac8fa9ef72688582de23558195275",
+          "bytes": 10532
+        },
+        {
+          "path": "skills/drawio-skill/scripts/edgeports.py",
+          "sha256": "429f1c8c0be958ef68418d38ddbf4af0e1da9d52f25015ecb599c74fa1b64f7a",
+          "bytes": 9285
+        },
+        {
+          "path": "skills/drawio-skill/scripts/encode_drawio_url.py",
+          "sha256": "47b77e4bc46226cc1a1cea29e93988877796d0a60706a2a38c7fd7910af3dfef",
+          "bytes": 2250
+        },
+        {
+          "path": "skills/drawio-skill/scripts/explain.py",
+          "sha256": "a804ae7094e5400f6c92b631dadae78e67ef4e2977bff8777e92058e1f22fb40",
+          "bytes": 6098
+        },
+        {
+          "path": "skills/drawio-skill/scripts/goimports.py",
+          "sha256": "a2cb0ea9cfbfb6b276abf746e35d352d5edce2c7469e31a1e0d1d48ad3939a51",
+          "bytes": 6131
+        },
+        {
+          "path": "skills/drawio-skill/scripts/graphqlerd.py",
+          "sha256": "be39395bd95f7f9c22d398cc7925222fab7495e91eee51466f7d5b82c701d67b",
+          "bytes": 16089
+        },
+        {
+          "path": "skills/drawio-skill/scripts/heatmap.py",
+          "sha256": "91d0c98537bf31b14b8766f7ee98046a9142716df450a97b062092bdec532a73",
+          "bytes": 9176
+        },
+        {
+          "path": "skills/drawio-skill/scripts/jsimports.py",
+          "sha256": "63b563d5ec10498d445885d7d762d7dbc26eb2cb47d379120db372ce7261bad1",
+          "bytes": 6535
+        },
+        {
+          "path": "skills/drawio-skill/scripts/k8simports.py",
+          "sha256": "3d2c32c908c78cf0f557ba2f3c00a3351b15052a3586d94c34cfe5251057782f",
+          "bytes": 9805
+        },
+        {
+          "path": "skills/drawio-skill/scripts/openapiimports.py",
+          "sha256": "2d29c8b205d862acd1201875dedbc91fc510266012bcb64f469902d7c365afdc",
+          "bytes": 6786
+        },
+        {
+          "path": "skills/drawio-skill/scripts/prdiff.py",
+          "sha256": "2e89c97b89b5dd47d7a15d7383396ae897364f141b201f1cd99ee09ab4c0fde8",
+          "bytes": 7995
+        },
+        {
+          "path": "skills/drawio-skill/scripts/protoimports.py",
+          "sha256": "e742b59c5e9f7ae6b884184b6cf9df4465ee3cafa15069658af6cd2852d9ba99",
+          "bytes": 17956
+        },
+        {
+          "path": "skills/drawio-skill/scripts/pyclasses.py",
+          "sha256": "1fbcf0370c0154bf18cdde559b56e1dbf4a6b069b75dda8ed49e386d56308be2",
+          "bytes": 6271
+        },
+        {
+          "path": "skills/drawio-skill/scripts/pyimports.py",
+          "sha256": "619a27f15e22995b323c28b6c2037fb02d9a9522e1bbbd1fe90680d98a46d9bd",
+          "bytes": 7036
+        },
+        {
+          "path": "skills/drawio-skill/scripts/raster2drawio.py",
+          "sha256": "7a81fad51336f01fa5791c354a3467994faea396b76d018d99c377c0374fcdb5",
+          "bytes": 7467
+        },
+        {
+          "path": "skills/drawio-skill/scripts/relabel.py",
+          "sha256": "98db0ebe5928754719ccf7c1ebcf661d14e010aed3962cc38bae57c25810c414",
+          "bytes": 4247
+        },
+        {
+          "path": "skills/drawio-skill/scripts/repair_png.py",
+          "sha256": "1a453cb88231813dcb5631456b0c7431eb59acd21570c7e749c1cce89ae31c4c",
+          "bytes": 1097
+        },
+        {
+          "path": "skills/drawio-skill/scripts/restyle.py",
+          "sha256": "b12ff51e133de46aff66ca70c546d82d2eba77673b872786c3f02a31996c7140",
+          "bytes": 7243
+        },
+        {
+          "path": "skills/drawio-skill/scripts/runbook.py",
+          "sha256": "56059a1bb86ff76047dc962b2fa8276b01090bc0bfe6051b388a8adb9bc5dc9c",
+          "bytes": 10187
+        },
+        {
+          "path": "skills/drawio-skill/scripts/rustimports.py",
+          "sha256": "9b6bfbc97a1daa5e6eee6ab6733a88500e5ea8d4accb92acf08cc633761ca41f",
+          "bytes": 7928
+        },
+        {
+          "path": "skills/drawio-skill/scripts/seqlayout.py",
+          "sha256": "527c522dfd1ccff1c252bb146f250710d0033385444ac3cc2a33ede11ee09fc4",
+          "bytes": 9917
+        },
+        {
+          "path": "skills/drawio-skill/scripts/shapesearch.py",
+          "sha256": "ac624fa2d532c1a72cc77ec0b2fd94a71e0baf4cd03ba339b60eb7a784e511b3",
+          "bytes": 5967
+        },
+        {
+          "path": "skills/drawio-skill/scripts/sqlerd.py",
+          "sha256": "f3896f9c17bb0933676de048cad3da6a3c17d853f0ef9dffb11d1e4ecacdff09",
+          "bytes": 6745
+        },
+        {
+          "path": "skills/drawio-skill/scripts/svgflow.py",
+          "sha256": "ba02ca683dc508d1a5083902236b52d595141b7dc0898f7b8d5ce6341706f334",
+          "bytes": 3757
+        },
+        {
+          "path": "skills/drawio-skill/scripts/tfimports.py",
+          "sha256": "66636c6b73b41d485560a90e0b4a13a4b30d4ecb03910f66cd3519d40406b007",
+          "bytes": 11910
+        },
+        {
+          "path": "skills/drawio-skill/scripts/tfstate.py",
+          "sha256": "aa2728eb203462621de7fde8eac9d2a3631252fd8b4b3ddd647f5fb596718ade",
+          "bytes": 5587
+        },
+        {
+          "path": "skills/drawio-skill/scripts/timelapse.py",
+          "sha256": "992ba6bb6ad5c9bbc00ddc6244e2cdd661d5bdea6963874800dee1fff4649220",
+          "bytes": 11329
+        },
+        {
+          "path": "skills/drawio-skill/scripts/tubemap.py",
+          "sha256": "f3bf38c0ca6941ea5b96174275532748793a2246d91aad2459d485666881fb6e",
+          "bytes": 6948
+        },
+        {
+          "path": "skills/drawio-skill/scripts/validate.py",
+          "sha256": "3effc1cdfd5b43b672630d0dbbc6f233a4925f6469f808e271d8c623530b9540",
+          "bytes": 16591
+        },
+        {
+          "path": "skills/drawio-skill/styles/built-in/colorblind-safe.json",
+          "sha256": "3b836988e6533c07bf0e6676cc35731e750f0fa659ab25e80bfef7087436f3eb",
+          "bytes": 1472
+        },
+        {
+          "path": "skills/drawio-skill/styles/built-in/corporate.json",
+          "sha256": "0cb0ba05b44e5938ce775bb917b6ffaa3a0501ceedbd610975cc6e909fe5e60b",
+          "bytes": 1471
+        },
+        {
+          "path": "skills/drawio-skill/styles/built-in/dark.json",
+          "sha256": "2a78d4da3b6bc747da7943597bb1d58e9ff12f5188192ecc09589570d6873fae",
+          "bytes": 1546
+        },
+        {
+          "path": "skills/drawio-skill/styles/built-in/default.json",
+          "sha256": "5340c1f80ab983f412e895d58d5dffb4949c246acc516702fd565675fec140e1",
+          "bytes": 1454
+        },
+        {
+          "path": "skills/drawio-skill/styles/built-in/handdrawn.json",
+          "sha256": "92a1fdca1bbb95e5239fca62b2da81d4035936a11ca690e026419a5c2508e541",
+          "bytes": 1474
+        },
+        {
+          "path": "skills/drawio-skill/styles/schema.json",
+          "sha256": "4886d76481285d584eaa7963053c1ec6786eb335b4f75e1093b66788dce148c0",
+          "bytes": 5362
+        }
+      ],
+      "excluded_paths": [
+        ".agents/plugins/marketplace.json",
+        ".codex-plugin/plugin.json",
+        ".github/actions/drawio-architecture-test/action.yml",
+        ".github/actions/drawio-diff/action.yml",
+        ".github/workflows/drawio-architecture-test.example.yml",
+        ".github/workflows/drawio-pr-diff.example.yml",
+        ".github/workflows/tests.yml",
+        ".gitignore",
+        ".skillspector-baseline.json",
+        "CHANGELOG.md",
+        "assets/ai-logos-example.png",
+        "assets/code-structure-example.png",
+        "assets/demo-erd.drawio",
+        "assets/demo-layered-cn.drawio",
+        "assets/demo-layered-cn.png",
+        "assets/demo-layered.drawio",
+        "assets/demo-layered.png",
+        "assets/demo-ml.drawio",
+        "assets/demo-ring-cn.drawio",
+        "assets/demo-ring-cn.png",
+        "assets/demo-ring.drawio",
+        "assets/demo-ring.png",
+        "assets/demo-sequence.drawio",
+        "assets/demo-star-cn.drawio",
+        "assets/demo-star-cn.png",
+        "assets/demo-star.drawio",
+        "assets/demo-star.png",
+        "assets/demo-uml-class.drawio",
+        "assets/hero-demo.gif",
+        "assets/kanban-cn.drawio",
+        "assets/kanban-cn.mmd",
+        "assets/kanban-cn.png",
+        "assets/kanban.drawio",
+        "assets/kanban.mmd",
+        "assets/kanban.png",
+        "assets/microservices-example.drawio",
+        "assets/microservices-example.png",
+        "assets/mindmap-cn.drawio",
+        "assets/mindmap-cn.png",
+        "assets/mindmap.drawio",
+        "assets/mindmap.png",
+        "assets/shape-search-example.png",
+        "assets/tubemap-cn.drawio",
+        "assets/tubemap-cn.json",
+        "assets/tubemap-cn.png",
+        "assets/tubemap.drawio",
+        "assets/tubemap.json",
+        "assets/tubemap.png",
+        "assets/workflow-cn.drawio",
+        "assets/workflow-cn.png",
+        "assets/workflow.drawio",
+        "assets/workflow.png",
+        "docs/.nojekyll",
+        "docs/CI.md",
+        "docs/CI_CN.md",
+        "docs/COMPARISON.md",
+        "docs/COMPARISON_CN.md",
+        "docs/DOGFOOD_V3.md",
+        "docs/INSTALL_CLI.md",
+        "docs/INSTALL_CLI_CN.md",
+        "docs/INSTALL_SKILL.md",
+        "docs/INSTALL_SKILL_CN.md",
+        "docs/ROADMAP_V3_1.md",
+        "docs/STYLE_PRESETS.md",
+        "docs/STYLE_PRESETS_CN.md",
+        "docs/USAGE.md",
+        "docs/USAGE_CN.md",
+        "docs/index.html",
+        "docs/zh.html",
+        "examples/architecture-studio/README.md",
+        "examples/architecture-studio/checkout.ir.json",
+        "examples/architecture-studio/codebase/checkout/__init__.py",
+        "examples/architecture-studio/codebase/checkout/gateway.py",
+        "examples/architecture-studio/codebase/checkout/orders.py",
+        "examples/architecture-studio/codebase/checkout/payments.py",
+        "examples/architecture-studio/codebase/checkout/persistence.py",
+        "examples/architecture-studio/generate.py",
+        "examples/architecture-studio/generated/checkout-failure.drawio",
+        "examples/architecture-studio/generated/checkout-story.html",
+        "examples/architecture-studio/generated/checkout-views.drawio",
+        "examples/architecture-studio/generated/codebase.drawio",
+        "examples/architecture-studio/generated/codebase.ir.json",
+        "examples/architecture-studio/generated/impact.json",
+        "examples/architecture-studio/generated/manual-layout.drawio",
+        "examples/architecture-studio/generated/policy-result.json",
+        "examples/architecture-studio/generated/reconciled.drawio",
+        "examples/architecture-studio/generated/sync-result.json",
+        "examples/architecture-studio/policy.yml",
+        "examples/architecture-studio/sync-baseline.ir.json",
+        "examples/architecture-studio/sync-source-v2.ir.json",
+        "examples/hero-demo/build_hero_gif.py",
+        "examples/hero-demo/diff.drawio",
+        "examples/hero-demo/main-v2.tf",
+        "examples/hero-demo/main.tf",
+        "examples/hero-demo/v1.drawio",
+        "examples/hero-demo/v2.drawio",
+        "skillspector-baseline.txt",
+        "tests/README.md",
+        "tests/test_asyncapiimports.py",
+        "tests/test_buildup.py",
+        "tests/test_compress.py",
+        "tests/test_dbxicons.py",
+        "tests/test_derasterize.py",
+        "tests/test_diagramctl.py",
+        "tests/test_examples.py",
+        "tests/test_graphqlerd.py",
+        "tests/test_mcp_server.py",
+        "tests/test_prdiff.py",
+        "tests/test_protoimports.py",
+        "tests/test_runbook.py",
+        "tests/test_scripts.py",
+        "tests/test_skill_metadata.py",
+        "tests/test_tubemap.py"
+      ],
+      "snapshot_time_utc": "2026-10-19T02:53:02.214737+00:00",
+      "previous_project_use": "consulted_guidance_not_executed"
+    },
+    {
+      "repository": "sxy1499894281/drawio-reconstruction-skill",
+      "url": "https://github.com/sxy1499894281/drawio-reconstruction-skill",
+      "commit": "7e72ed6d04a138f8da60779d349e97396964d7ac",
+      "license": "MIT",
+      "scope": [
+        "SKILL.md",
+        "agents/",
+        "scripts/",
+        "references/",
+        "tests/"
+      ],
+      "vendored_path": "vendor/sxy1499894281__drawio-reconstruction-skill",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "bfbb06eedaf5ab909b115b901bdc15942969f2bd51c71aee6ab9b6b84f22f0b8",
+          "bytes": 1074
+        },
+        {
+          "path": "README.md",
+          "sha256": "4558cd656bd38505b5ceee1509a87b5af9b37b15a168a683f53d459e53978c37",
+          "bytes": 11573
+        },
+        {
+          "path": "README.zh-CN.md",
+          "sha256": "d8bc84cd759d9d5fc51164f0654fcd4fb8c38b38dccccef79a39877e33884d72",
+          "bytes": 11077
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "58131e38a20e1f9f3a6e1ffeb4621013431f93094fba9bcac48f50e9d6827f69",
+          "bytes": 41536
+        },
+        {
+          "path": "agents/openai.yaml",
+          "sha256": "35e89a3d6f664750647ff15b404ca8f116bf618796f47be542644eff6e42a8cf",
+          "bytes": 871
+        },
+        {
+          "path": "references/batch-scheduling.md",
+          "sha256": "614328a1792d17098cf80629783ee42fc2e56ac56b3509326433d93e2646b9b0",
+          "bytes": 11745
+        },
+        {
+          "path": "references/drawio-to-pptx.md",
+          "sha256": "9a34e3295ebe647f1b750a2061371e12a64776f730b1f852128d906058f55c01",
+          "bytes": 14879
+        },
+        {
+          "path": "scripts/batch_manifest.py",
+          "sha256": "bd88d51b4e192f6401ce610f86c528105b5a8b7ba4d2fe624eabc88270155247",
+          "bytes": 4469
+        },
+        {
+          "path": "scripts/batch_verify.py",
+          "sha256": "a64967c7e37319140569f719c60dab610afe07cd365c23a1306f799f851c118a",
+          "bytes": 2991
+        },
+        {
+          "path": "scripts/check_drawio.py",
+          "sha256": "cbb2a01f85feca56fc6ace859879039c213dc175aefa4978ab9956f35ccf4fb1",
+          "bytes": 7885
+        },
+        {
+          "path": "scripts/check_pptx_compatibility.py",
+          "sha256": "0ad255ed5b25b78de8207714f348c6b6892f13bf40ca708c2318806c6afd3d9b",
+          "bytes": 10270
+        },
+        {
+          "path": "scripts/crop_assist.py",
+          "sha256": "86ffdf19c7bb75cc02cf69a81061026f824c60353d9f7cba93761f3ff4c68c70",
+          "bytes": 12877
+        },
+        {
+          "path": "scripts/export_drawio.py",
+          "sha256": "d0f3940313e5e3b5e470e13fc9ea6c5209b620b65a510211f4ef726f822153fa",
+          "bytes": 2585
+        },
+        {
+          "path": "scripts/inspect_drawio_for_pptx.py",
+          "sha256": "f0f28e7171245a797b037648a3b0ee3f06cb37fa701cca7a7944205cc22fbcb9",
+          "bytes": 7422
+        },
+        {
+          "path": "scripts/validate_review_result.py",
+          "sha256": "123b96f8383024789dba5fa64b9a173200d4060803e93bf40b678fbd9996c11c",
+          "bytes": 7030
+        },
+        {
+          "path": "scripts/verify_drawio_pptx.py",
+          "sha256": "f3025dc19375623a0107beb490ce3563010357f6fa19ee2739a6c0f403cfb22b",
+          "bytes": 6137
+        },
+        {
+          "path": "tests/run_forward_case.ps1",
+          "sha256": "bbc3d5f63d12d7eb642e72a9f8d7955650249c23adf9f9ffee414babc89e14c5",
+          "bytes": 1588
+        },
+        {
+          "path": "tests/test_pptx_compatibility.py",
+          "sha256": "7a0e8a909b663bdc05d0f390d5bc559eb7f5b8dd343df81455db86c1fa20d163",
+          "bytes": 8734
+        },
+        {
+          "path": "tests/test_skill_contract.py",
+          "sha256": "7c959cbdeeaa568aacdeb85d92c90b69151a7f8678492d7cfe2e9769323611a2",
+          "bytes": 21905
+        }
+      ],
+      "excluded_paths": [
+        ".gitignore",
+        "assets/cases/data_cn_drawio.png",
+        "assets/cases/data_cn_original.png",
+        "assets/cases/data_lake_drawio.png",
+        "assets/cases/data_lake_original.png",
+        "assets/cases/data_man_drawio.png",
+        "assets/cases/data_man_original.png",
+        "assets/cases/data_sci2_drawio.png",
+        "assets/cases/data_sci2_original.png",
+        "assets/cases/m1_drawio.png",
+        "assets/cases/m1_original.png",
+        "assets/cases/m2_drawio.png",
+        "assets/cases/m2_original.png",
+        "assets/cases/m3_drawio.png",
+        "assets/cases/m3_original.png",
+        "examples/data_cn.drawio",
+        "examples/data_cn.jpg",
+        "examples/data_lake.drawio",
+        "examples/data_lake.png",
+        "examples/data_man.drawio",
+        "examples/data_man.png",
+        "examples/data_sci2.drawio",
+        "examples/data_sci2.png",
+        "examples/m1.drawio",
+        "examples/m1.png",
+        "examples/m2.drawio",
+        "examples/m2.png",
+        "examples/m3.drawio",
+        "examples/m3.png"
+      ],
+      "snapshot_time_utc": "2026-10-19T02:53:21.406154+00:00",
+      "previous_project_use": "consulted_guidance_not_executed"
+    },
+    {
+      "repository": "HututuWorks/sci-diagram-pptx",
+      "url": "https://github.com/HututuWorks/sci-diagram-pptx",
+      "commit": "cc8f0030edf80eeab6e52849b8c39fe638466776",
+      "license": "Apache-2.0",
+      "scope": [
+        "skills/sci-diagram-pptx/"
+      ],
+      "vendored_path": "vendor/HututuWorks__sci-diagram-pptx",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "9b708f42972e6fd34f5e211a069084ea6e01f8b8b67dc27b960c3df7d9793aea",
+          "bytes": 11342
+        },
+        {
+          "path": "README.md",
+          "sha256": "51fe06d49f661fb572429298489475dc8e96876f7401bdb66b4940a8fdefeb33",
+          "bytes": 12954
+        },
+        {
+          "path": "skills/sci-diagram-pptx/LICENSE",
+          "sha256": "9b708f42972e6fd34f5e211a069084ea6e01f8b8b67dc27b960c3df7d9793aea",
+          "bytes": 11342
+        },
+        {
+          "path": "skills/sci-diagram-pptx/SKILL.md",
+          "sha256": "6d344a5df1115c713dc4ee220b2d8c6b290c9fd6cc4107a82f36373ddc851905",
+          "bytes": 7345
+        },
+        {
+          "path": "skills/sci-diagram-pptx/agents/openai.yaml",
+          "sha256": "e85a3dda53e907ed5cc5eb3d827123fe11e7b5ebd36b864c0bf186237157de79",
+          "bytes": 478
+        },
+        {
+          "path": "skills/sci-diagram-pptx/assets/pptxgenjs-build-template.mjs",
+          "sha256": "6796a3b82a907d33d39fd7dfb1ab27de14f33ce27920c97a25077c52fda0f274",
+          "bytes": 10745
+        },
+        {
+          "path": "skills/sci-diagram-pptx/references/capability-matrix.md",
+          "sha256": "16d57e089df3e8254d1497fa0061f45c8495f27c10575ef599227e5f30b0ca0d",
+          "bytes": 2911
+        },
+        {
+          "path": "skills/sci-diagram-pptx/references/cross-platform-compatibility.md",
+          "sha256": "01882853a537538d45aa2c9e713f47ba5083ced45f3b047c879eabd0200a2682",
+          "bytes": 1535
+        },
+        {
+          "path": "skills/sci-diagram-pptx/references/inspection.md",
+          "sha256": "4f5b68d5e191039233c6ec0ebb9ff95241005c3b2be12853e95b814da867356f",
+          "bytes": 1271
+        },
+        {
+          "path": "skills/sci-diagram-pptx/references/math-and-fonts.md",
+          "sha256": "36a92714c3a8d0615853fa5dd04e6c0cb8670b6fbb77d6031017149f1fec60ef",
+          "bytes": 3240
+        },
+        {
+          "path": "skills/sci-diagram-pptx/references/reconstruction.md",
+          "sha256": "2cec65bb487d0328b4e708a26466656ce1b828a164e45fd85bb1709f659e072f",
+          "bytes": 6184
+        },
+        {
+          "path": "skills/sci-diagram-pptx/references/repair.md",
+          "sha256": "6e5e5df7dcbb11512091f29f46a2070ead2735067e828f7d1b0334739ec33def",
+          "bytes": 1952
+        },
+        {
+          "path": "skills/sci-diagram-pptx/references/runtime-artifact-tool.md",
+          "sha256": "d9a97e486f3b2ee92195e66ae5a30ffb139bd8dac16013b57b16e235f089f86e",
+          "bytes": 4026
+        },
+        {
+          "path": "skills/sci-diagram-pptx/references/runtime-pptxgenjs.md",
+          "sha256": "9469a0125dcc1b7c0b716a3d9094590a71e73b411c7b952198e958886c7e2d4c",
+          "bytes": 6831
+        },
+        {
+          "path": "skills/sci-diagram-pptx/scripts/check_pptx.py",
+          "sha256": "ac96a123d4017ef6bfb7edf85238b96dd24274f1cad4c379c5040e82a446fe32",
+          "bytes": 86268
+        },
+        {
+          "path": "skills/sci-diagram-pptx/scripts/panel_crop.py",
+          "sha256": "9b27d5799072757c35b2979ea8332a0780df2a23d24f1b645b7059ad22024219",
+          "bytes": 4559
+        },
+        {
+          "path": "skills/sci-diagram-pptx/scripts/probe_runtime.mjs",
+          "sha256": "cf261cd3a5466f50281c98d8616778e0fe338d0a398d56219bf74caa136b210a",
+          "bytes": 5994
+        },
+        {
+          "path": "skills/sci-diagram-pptx/scripts/render_pptx.py",
+          "sha256": "597ffd8439244ccaf5391681be63ba0bc00838fc8f4ab5b002e6d491ffb2468f",
+          "bytes": 5019
+        }
+      ],
+      "excluded_paths": [
+        ".github/workflows/validate.yml",
+        ".gitignore",
+        "docs/cases/ecosystem-services-assessment.png",
+        "docs/cases/global-innovation-industry-chain.png",
+        "docs/cases/l-plantarum-scs2-islet-cell-injury-mechanism.png",
+        "docs/cases/municipal-solid-waste-ghg-accounting-framework.png",
+        "docs/cases/osteoporosis-pedicle-screw-biomechanics.png",
+        "docs/cases/water-nitrogen-low-carbon-optimization.png",
+        "docs/hero-cn.png",
+        "examples/cases/ecosystem-services-assessment/build.mjs",
+        "examples/cases/ecosystem-services-assessment/editable.pptx",
+        "examples/cases/ecosystem-services-assessment/source.png",
+        "examples/cases/global-innovation-industry-chain/build.mjs",
+        "examples/cases/global-innovation-industry-chain/editable.pptx",
+        "examples/cases/global-innovation-industry-chain/source.png",
+        "examples/cases/l-plantarum-scs2-islet-cell-injury-mechanism/build.mjs",
+        "examples/cases/l-plantarum-scs2-islet-cell-injury-mechanism/editable.pptx",
+        "examples/cases/l-plantarum-scs2-islet-cell-injury-mechanism/source.png",
+        "examples/cases/municipal-solid-waste-ghg-accounting-framework/build.mjs",
+        "examples/cases/municipal-solid-waste-ghg-accounting-framework/editable.pptx",
+        "examples/cases/municipal-solid-waste-ghg-accounting-framework/source.png",
+        "examples/cases/osteoporosis-pedicle-screw-biomechanics/build.mjs",
+        "examples/cases/osteoporosis-pedicle-screw-biomechanics/editable.pptx",
+        "examples/cases/osteoporosis-pedicle-screw-biomechanics/source.png",
+        "examples/cases/water-nitrogen-low-carbon-optimization/build.mjs",
+        "examples/cases/water-nitrogen-low-carbon-optimization/editable.pptx",
+        "examples/cases/water-nitrogen-low-carbon-optimization/source.png",
+        "package-lock.json",
+        "package.json",
+        "requirements-ci.txt",
+        "tests/test_check.py",
+        "tests/test_panel_crop.py",
+        "tests/test_portable_runtime.py"
+      ],
+      "snapshot_time_utc": "2026-10-19T02:53:33.355522+00:00",
+      "previous_project_use": "newly_researched_for_this_bundle"
+    }
+  ],
+  "excluded_restricted_source": {
+    "repository": "anthropics/skills",
+    "path": "skills/pptx",
+    "commit": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+    "reason": "LICENSE prohibits retention/copy/derivative works/distribution; links only; not vendored"
+  }
+}
